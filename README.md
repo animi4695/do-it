@@ -4,7 +4,7 @@ This project helped me to understand the basics of HTML, CSS, JS
 
 <div align="center">
   <h3>
-    <a href="https://app.netlify.com/sites/pensive-joliot-bbce54/do-it/index.html">
+    <a href="https://pensive-joliot-bbce54.netlify.app/index.html">
       Demo
     </a>
   </h3>
