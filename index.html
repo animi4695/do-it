@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DO-IT</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="background"></div>
+    <div>
+        <main class="container">
+            <!-- Add Bar -->
+            <div class="add-bar">
+                <i class="fas fa-clipboard-list mg-10 fs-large"></i>
+                <input type="text" id="new-task" placeholder="Add Items..." />
+                <ion-icon id="add-button" name="add-circle-outline" class="mg-10 fs-large"></ion-icon>
+            </div>
+            <!-- Menu Bar -->
+            <div class="menu-bar">
+                <div id="check-all-button">
+                    <ion-icon name="checkmark-done-outline"></ion-icon>
+                    <p id="completeAll" class="fs-med">Complete All Tasks</p>
+                </div>
+                <p id="clearComplete" class="fs-med">Clear Completed</p>
+            </div>
+            <hr>
+            <!-- Tasks Container -->
+            <div id="show-all" class="tasks-container">
+            </div>
+    
+            <hr>
+            <!-- Footer -->
+            <div class="footer">
+                <div class="task-count">
+                    <p id="task-left-count" class="fs-med bold">3</p>&nbsp;
+                    <p class="fs-med">tasks on List</p>
+                </div>
+                <div class="filter">
+                    <p id="showAll" class="filter-button">All</p>
+                    <p id="showComplete" class="filter-button">Completed</p>
+                    <p id="showInprogress" class="filter-button">In-progress</p>
+                    <p id="showNotStarted" class="filter-button">Not-started</p>
+                </div>
+            </div>
+        </main>
+    
+    </div>
+    <div class="mainfooter">
+        <h3 style="color: rgb(0, 0, 0);"><span>Made with <i class="fa fa-heart" style="color: red;" aria-hidden="true"></i> at Home</span></h3>
+      </div>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
