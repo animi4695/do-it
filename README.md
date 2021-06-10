@@ -36,14 +36,6 @@ In-Future:
 - Save State to preserve added tasks even after closing the application 
 
 
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- https://blog.usejournal.com/create-a-to-do-list-application-with-html-css-and-pure-js-533e1b07c20e
-
-- https://web.whatsapp.com for images
-
 ## Contact
 
 - GitHub [@animi4695](https://github.com/animi4695)
